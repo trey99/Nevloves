@@ -23,7 +23,7 @@ padding: 20px;
   text-align: center;
 }
 h1 {
-  font-size: 100px
+  font-size: 50px
 }
 .button{
   border-radius: 10px;
@@ -32,7 +32,7 @@ h1 {
   width: 100px;
 
 
-  button:active {
+  .button:active {
     position:relative;
     top: 5px;
 }
