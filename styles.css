@@ -31,13 +31,10 @@ h1 {
   height: 100px;
   width: 100px;
 
-  button:active{
-  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-          box-shadow: inset 0px 0px 5px #c1c1c1;
-   outline: none;
-  }
 
+  button:active {
+    position:relative;
+    top: 5px;
 }
 .button2{
   background: linear-gradient(to bottom right, #ffffff 0%, ##71e895 100%);
