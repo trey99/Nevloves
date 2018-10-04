@@ -3,15 +3,18 @@ Body {
 }
 .navbar{
   background-color: #C3C3C3;
-  height: 100px
+  height: 100px;
+  width: auto;
 }
 .selection{
   border: 10px solid #9AEEB3;
-  height: 400px;
+  height: 900px;
+  width: 500px;
 }
 .icons{
   border: 5px solid #9AEEB3;
-  height: 100px;
+  height: 400px;
+  width: 300px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
