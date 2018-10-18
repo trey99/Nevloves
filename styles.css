@@ -1,5 +1,6 @@
 Body {
    background-color: #ffffff;
+   background-image: url("./Images/leafprint.jpg");
 }
 
 /*
@@ -10,12 +11,13 @@ Body {
 }
 */
 .selection {
-  border: 10px solid #4a8781;
+  border: 10px solid #7b00ff;
   height: auto;
-  width: 200px;
+  width: 210px;
   margin: 0px;
-  background-color: #4a8781;
+  background-color: #7b00ff;
   position: absolute;
+  opacity: .5;
 }
 
 .selection p {
@@ -39,10 +41,12 @@ h1 {
 .button {
   border-radius: 10px;
   background: linear-gradient(to bottom right, #ffffff 0%, #000000);
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   display: inline-block;
-  margin: 15px;
+  margin: 12px;
+  opacity:1;
+
 }
 
 .button:active {
@@ -55,19 +59,23 @@ h1 {
 }
 
 .carousel {
-  height: 800px;
-  width: 1000px;
-  border: 10px solid #f9a55c;
+  height: 1000px;
+  width: 1225px;
+  border: 10px solid black;
   float: right;
   margin: 0px;
   background-color: black;
 }
-
+body .footer {
+ background-color: green;
+ height: 1100px;
+}
 /*
 footer {
-  background-color: black;
+  background-color:green;
   border: 10px solid black;
   height:500px;
+  width: 400px;
 }
 .socialmedia p {
   color: #ce5f37;
