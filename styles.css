@@ -1,6 +1,5 @@
 Body {
-   background-color: #ffffff;
-   background-image: url("./Images/leafprint.jpg");
+  background-color: #c11b4a;
 }
 
 /*
@@ -11,23 +10,24 @@ Body {
 }
 */
 .selection {
-  border: 10px solid #7b00ff;
+  border: 10px solid #c11b4a;
   height: auto;
-  width: 210px;
+  width: 200px;
   margin: 0px;
-  background-color: #7b00ff;
+  background-color: #ffffff
+  ;
   position: absolute;
-  opacity: .5;
+  opacity: 1;
 }
 
 .selection p {
-  color: #ce5f37;
+  color: #c11b4a;
   font-size: 50px;
   text-align: center;
 }
 
 .icons {
-  border: 5px solid #f9a55c;
+  border: 5px solid #c11b4a;
   height: auto;
   width: 50px;
   padding: 20px;
@@ -40,13 +40,11 @@ h1 {
 
 .button {
   border-radius: 10px;
-  background: linear-gradient(to bottom right, #ffffff 0%, #000000);
+  background: linear-gradient(to bottom right, #ffe0e9 0%, #9e002c);
   height: 90px;
   width: 90px;
   display: inline-block;
   margin: 12px;
-  opacity:1;
-
 }
 
 .button:active {
@@ -58,18 +56,20 @@ h1 {
   cursor: pointer;
 }
 
+/*
 .carousel {
-  height: 1000px;
+  height:997px;
   width: 1225px;
   border: 10px solid black;
   float: right;
   margin: 0px;
-  background-color: black;
 }
+*/
 body .footer {
- background-color: green;
- height: 1100px;
+  height: 300px;
+  background-color: inherit;
 }
+
 /*
 footer {
   background-color:green;
@@ -81,3 +81,108 @@ footer {
   color: #ce5f37;
 }
 */
+  {
+  box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
