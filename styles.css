@@ -10,14 +10,13 @@ Body {
 }
 */
 .selection {
-  border: 10px solid #c11b4a;
+  border: 10px solid none;
   height: auto;
-  width: 200px;
+  width: 190px;
   margin: 0px;
-  background-color: #ffffff
-  ;
+  background-color: #ffffff;
   position: absolute;
-  opacity: 1;
+  opacity: .75;
 }
 
 .selection p {
@@ -186,3 +185,10 @@ footer {
     opacity: 1
   }
 }
+ .mySlides img {
+   height: 900px;
+   width: 400px;
+ }
+ .carousel {
+   float: right;
+ }
