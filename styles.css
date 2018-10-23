@@ -16,7 +16,7 @@ Body {
   margin: 0px;
   background-color: #ffffff;
   position: absolute;
-  opacity: .75;
+  opacity: 1;
 }
 
 .selection p {
@@ -186,9 +186,17 @@ footer {
   }
 }
  .mySlides img {
-   height: 900px;
+   height: 950px;
    width: 400px;
  }
  .carousel {
    float: right;
+   margin: 2px;
  }
+ .footer p {
+   color: white;
+ }
+
+.calafoot {
+  float:right;
+}
