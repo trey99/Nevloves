@@ -185,18 +185,21 @@ footer {
     opacity: 1
   }
 }
- .mySlides img {
-   height: 950px;
-   width: 400px;
- }
- .carousel {
-   float: right;
-   margin: 2px;
- }
- .footer p {
-   color: white;
- }
+
+.mySlides img {
+  height: 950px;
+  width: 400px;
+}
+
+.carousel {
+  float: right;
+  margin: 2px;
+}
+
+.footer p {
+  color: white;
+}
 
 .calafoot {
-  float:right;
+  float: right;
 }
