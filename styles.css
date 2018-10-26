@@ -49,10 +49,14 @@ h1 {
 .button:active {
   position: relative;
   top: 5px;
+  background: linear-gradient(to bottom left, orange 0%, lightblue);
 }
 
 .button:hover {
   cursor: pointer;
+}
+.button:visited {
+  background: linear-gradient(to bottom left, orange 0%, lightblue);
 }
 
 /*
@@ -201,5 +205,9 @@ footer {
 }
 
 .calafoot {
+  float: right;
+}
+
+.RaJ {
   float: right;
 }
