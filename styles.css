@@ -45,12 +45,13 @@ h1 {
   width: 90px;
   display: inline-block;
   margin: 12px;
+  border: black solid 1px;
 }
 
 .button:active {
   position: relative;
   top: 5px;
-  background: linear-gradient(to bottom left, orange 0%, lightblue);
+  background: linear-gradient(to bottom left, #00368E 0%, #ADB4ff);
 }
 
 .button:hover {
@@ -194,6 +195,7 @@ footer {
 .mySlides img {
   height: 950px;
   width: 400px;
+  border-radius: 10px;
 }
 
 .carousel {
