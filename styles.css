@@ -11,6 +11,7 @@ Body {
 */
 .selection {
   border: 10px solid none;
+  border-radius: 10px;
   height: auto;
   width: 190px;
   margin: 0px;
