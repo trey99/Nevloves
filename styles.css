@@ -1,5 +1,7 @@
 Body {
-  background-color: #c11b4a;
+  background-image: linear-gradient(to right top, #c11b4a, #a9143d, #920c30, #7c0525, #66001a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*
@@ -56,11 +58,10 @@ h1 {
 
 .button:hover {
   cursor: pointer;
-background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
+  background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
 }
-.button:visited {
 
-}
+.button:visited {}
 
 /*
 .carousel {
@@ -71,13 +72,7 @@ background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
   margin: 0px;
 }
 */
-body .footer {
-
-  width: 100%;
-  height: auto;
-  background-color: white;
-  border-radius: 10px;
-}
+body footer {}
 
 /*
 footer {
@@ -213,8 +208,84 @@ footer {
 
 .calafoot {
   float: right;
+  border: white solid 20px;
+  border-radius: 10px;
 }
 
-.RaJ {
+footer {
+  width: 1000px;
+  height: 110px;
+  background-color: white;
+  border-radius: 10px;
+  color: #c11b4a;
+}
+
+.allplays {
   float: right;
+}
+
+.info {
+  width: 800px;
+  height: 900px;
+  background-color: white;
+  color: #c11b4a;
+  font-family: 'Amatic SC';font-size: 22px;
+  float: right;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.info h1 {
+font-family: 'Anton';font-size: 22px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #c11b4a;
+  color: white;
+  padding: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background and text color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: #c11b4a;
 }
