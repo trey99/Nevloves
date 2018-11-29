@@ -1,16 +1,10 @@
+/*change the body*/
 Body {
-  background-image: linear-gradient(to right top, #c11b4a, #a9143d, #920c30, #7c0525, #66001a);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to right top, #c11b4a, #a9143d, #920c30, #7c0525, #66001a);=
   background-attachment: fixed;
 }
 
-/*
-.navbar {
-  background-color: #898989;
-  height: 100px;
-  width: auto;
-}
-*/
+/*the div containing the nav buttons and the nav heading*/
 .selection {
   border: 10px solid none;
   border-radius: 10px;
@@ -21,13 +15,13 @@ Body {
   position: absolute;
   opacity: 1;
 }
-
+/*Change the p elem in the selection div*/
 .selection p {
   color: #c11b4a;
   font-size: 50px;
   text-align: center;
 }
-
+/*The area where only the buttons are located*/
 .icons {
   border: 5px solid #c11b4a;
   height: auto;
@@ -35,11 +29,11 @@ Body {
   padding: 20px;
   border: 0px;
 }
-
+/*Genral h1 elem change*/
 h1 {
   font-size: 50px
 }
-
+/*CHange the button in it's base state*/
 .button {
   border-radius: 10px;
   background: linear-gradient(to bottom right, #ffe0e9 0%, #9e002c);
@@ -49,40 +43,16 @@ h1 {
   margin: 12px;
   border: black solid 1px;
 }
-
+/*Change the nav buttons when clicked*/
 .button:active {
   position: relative;
   top: 5px;
   background: linear-gradient(to bottom left, #00368E 0%, #ADB4ff);
 }
-
+/*Change the nav button when hovered over*/
 .button:hover {
   cursor: pointer;
   background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
-}
-
-/*
-.carousel {
-  height:997px;
-  width: 1225px;
-  border: 10px solid black;
-  float: right;
-  margin: 0px;
-}
-*/
-/*
-footer {
-  background-color:green;
-  border: 10px solid black;
-  height:500px;
-  width: 400px;
-}
-.socialmedia p {
-  color: #ce5f37;
-}
-*/
-  {
-  box-sizing: border-box
 }
 
 /* Slideshow container */
@@ -186,18 +156,18 @@ footer {
     opacity: 1
   }
 }
-
+/*Change the imagesin the carousel*/
 .mySlides img {
   height: 950px;
   width: 400px;
   border-radius: 10px;
 }
-
+/*Change the carousel its self*/
 .carousel {
   float: right;
   margin: 2px;
 }
-
+/*Div containing the calendar*/
 .calafoot {
   float: right;
   border: white solid 20px;
@@ -205,10 +175,10 @@ footer {
   height: 500px;
   width: 900px;
 }
-
+/*Change all footers*/
 footer {
   width: 1000px;
-  height: 110px;
+  height: auto;
   background-color: white;
   border-radius: 10px;
   color: #c11b4a;
@@ -226,12 +196,12 @@ footer {
   font-weight: bold;
   font-size: 50px;
 }
-
+/*Change all h1 elem*/
 h1 {
   font-family: 'Anton';
   font-size: 78px;
 }
-
+/*The larger area containing the buttons*/
 .allplays {
   float: right;
   display: inline-block;
@@ -240,6 +210,10 @@ h1 {
   height: 950px;
   width: 950px;
   text-align: center;
+}
+/*style the h1 elem. in all plays*/
+.allplays h1 {
+  color: #c11b4a;
 }
 
 /*change the position of all the btns*/
@@ -286,12 +260,12 @@ h1 {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Change color of dropdown links on click */
 .dropdown-content p:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+/* Show the dropdown menu on click */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -301,7 +275,7 @@ h1 {
   background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
   color: white;
 }
-
+/*
 .content {
   width: 1000px;
   height: 1000px;
@@ -318,7 +292,7 @@ h1 {
   width: 900px;
   height: 800px;
   background-color: white;
-  float: right;
+  float:right;
   border-radius: 10px;
   image: Images/Red_Phone_Font-Awesome.svg.png;
 }
@@ -344,7 +318,7 @@ body {font-family: Verdana, sans-serif;}
 .month {
     padding: 70px 25px;
     width: auto;
-    background: #1abc9c;
+    background: #00368E;
     text-align: center;
 }
 
@@ -408,6 +382,10 @@ body {font-family: Verdana, sans-serif;}
 /* Highlight the "current" day */
 .days li .active {
     padding: 5px;
-    background: #1abc9c;
+    background: #00368E;
     color: white !important
+}
+
+.horse{
+  float: right;
 }
