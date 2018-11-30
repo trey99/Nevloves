@@ -1,6 +1,7 @@
 /*change the body*/
 Body {
-  background-image: linear-gradient(to right top, #c11b4a, #a9143d, #920c30, #7c0525, #66001a);=
+  background-image: linear-gradient(to right top, #c11b4a, #a9143d, #920c30, #7c0525, #66001a);
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -12,8 +13,9 @@ Body {
   width: 190px;
   margin: 0px;
   background-color: #ffffff;
-  position: absolute;
+  position: fixed;
   opacity: 1;
+  top: -5%;
 }
 /*Change the p elem in the selection div*/
 .selection p {
@@ -35,6 +37,7 @@ h1 {
 }
 /*CHange the button in it's base state*/
 .button {
+  position: relative;
   border-radius: 10px;
   background: linear-gradient(to bottom right, #ffe0e9 0%, #9e002c);
   height: 90px;
@@ -182,6 +185,9 @@ footer {
   background-color: white;
   border-radius: 10px;
   color: #c11b4a;
+  position: absolute;
+  right: 0%;
+  top: 70%;
 }
 
 .info {
@@ -275,7 +281,7 @@ h1 {
   background: linear-gradient(to bottom right, #00368E 0%, #ADB4ff);
   color: white;
 }
-/*
+
 .content {
   width: 1000px;
   height: 1000px;
@@ -300,7 +306,7 @@ h1 {
 .contact p {
   font-family: 'Amatic SC';
   color: #c11b4a;
-  float: right;
+
 }
 
 .peanut {
@@ -387,5 +393,11 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .horse{
-  float: right;
+
+}
+
+.activea{
+  padding: 5px;
+  background: #c11b4a;
+  color: white !important
 }
