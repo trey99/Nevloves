@@ -178,6 +178,9 @@ h1 {
   height: 500px;
   width: 900px;
 }
+.calafoot p {
+  color: white;
+}
 /*Change all footers*/
 footer {
   width: 1000px;
