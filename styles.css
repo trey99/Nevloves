@@ -61,8 +61,10 @@ h1 {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
+  position: absolute;
   margin: auto;
+  top: 0%;
+  right: 0%;
 }
 
 /* Hide the images by default */
@@ -159,7 +161,7 @@ h1 {
     opacity: 1
   }
 }
-/*Change the imagesin the carousel*/
+/*Change the images in the carousel*/
 .mySlides img {
   height: 950px;
   width: 400px;
@@ -167,8 +169,7 @@ h1 {
 }
 /*Change the carousel its self*/
 .carousel {
-  float: right;
-  margin: 2px;
+
 }
 /*Div containing the calendar*/
 .calafoot {
@@ -190,7 +191,7 @@ footer {
   color: #c11b4a;
   position: absolute;
   right: 0%;
-  top: 70%;
+  top: 90%;
 }
 
 .info {

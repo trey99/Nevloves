@@ -1,1 +1,2 @@
 # Raspbery-Pithon
+Raspberry Pithon is a group that has been working very hard to achieve what we have in such a short amount of time. However later in the game we have come across a few issues which were too difficult to fix in the time allotted. One of our main issues throughout this process is the footer. The footer has the tendency to yeet it's self to the top of our page. Other issues we had are getting a google calafoot to work
