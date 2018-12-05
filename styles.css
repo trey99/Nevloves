@@ -407,7 +407,10 @@ body {
   color: white !important
 }
 
-.horse {}
+.horse {
+  position: absolute;
+  left: 15%;
+}
 
 .activea {
   padding: 5px;
