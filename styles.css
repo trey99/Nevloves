@@ -17,12 +17,14 @@ Body {
   opacity: 1;
   top: -5%;
 }
+
 /*Change the p elem in the selection div*/
 .selection p {
   color: #c11b4a;
   font-size: 50px;
   text-align: center;
 }
+
 /*The area where only the buttons are located*/
 .icons {
   border: 5px solid #c11b4a;
@@ -31,10 +33,12 @@ Body {
   padding: 20px;
   border: 0px;
 }
+
 /*Genral h1 elem change*/
 h1 {
   font-size: 50px
 }
+
 /*CHange the button in it's base state*/
 .button {
   position: relative;
@@ -46,12 +50,14 @@ h1 {
   margin: 12px;
   border: black solid 1px;
 }
+
 /*Change the nav buttons when clicked*/
 .button:active {
   position: relative;
   top: 5px;
   background: linear-gradient(to bottom left, #00368E 0%, #ADB4ff);
 }
+
 /*Change the nav button when hovered over*/
 .button:hover {
   cursor: pointer;
@@ -60,7 +66,7 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 1000px;
   position: absolute;
   margin: auto;
   top: 0%;
@@ -68,7 +74,7 @@ h1 {
 }
 
 /* Hide the images by default */
-.mySlides {
+.Slides {
   display: none;
 }
 
@@ -161,15 +167,12 @@ h1 {
     opacity: 1
   }
 }
+
 /*Change the images in the carousel*/
-.mySlides img {
+.Slides img {
   height: 950px;
   width: 400px;
   border-radius: 10px;
-}
-/*Change the carousel its self*/
-.carousel {
-
 }
 /*Div containing the calendar*/
 .calafoot {
@@ -179,9 +182,11 @@ h1 {
   height: 500px;
   width: 900px;
 }
+
 .calafoot p {
   color: white;
 }
+
 /*Change all footers*/
 footer {
   width: 1000px;
@@ -206,11 +211,13 @@ footer {
   font-weight: bold;
   font-size: 50px;
 }
+
 /*Change all h1 elem*/
 h1 {
   font-family: 'Anton';
   font-size: 78px;
 }
+
 /*The larger area containing the buttons*/
 .allplays {
   float: right;
@@ -221,7 +228,8 @@ h1 {
   width: 950px;
   text-align: center;
 }
-/*style the h1 elem. in all plays*/
+
+
 .allplays h1 {
   color: #c11b4a;
 }
@@ -245,7 +253,6 @@ h1 {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-
   position: relative;
   display: inline-block;
   margin-left: 5px;
@@ -302,7 +309,7 @@ h1 {
   width: 900px;
   height: 800px;
   background-color: white;
-  float:right;
+  float: right;
   border-radius: 10px;
   image: Images/Red_Phone_Font-Awesome.svg.png;
 }
@@ -310,7 +317,6 @@ h1 {
 .contact p {
   font-family: 'Amatic SC';
   color: #c11b4a;
-
 }
 
 .peanut {
@@ -321,86 +327,89 @@ h1 {
   margin-top: 20px;
 }
 
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
 
 /* Month header */
 .month {
-    padding: 70px 25px;
-    width: auto;
-    background: #00368E;
-    text-align: center;
+  padding: 70px 25px;
+  width: auto;
+  background: #00368E;
+  text-align: center;
 }
 
 /* Month list */
 .month ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 /* Previous button inside month header */
 .month .prev {
-    float: left;
-    padding-top: 10px;
+  float: left;
+  padding-top: 10px;
 }
 
 /* Next button */
 .month .next {
-    float: right;
-    padding-top: 10px;
+  float: right;
+  padding-top: 10px;
 }
 
-/* Weekdays (Mon-Sun) */
+/* Weekdays */
 .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color:#ddd;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
 }
 
 .weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
 }
 
 /* Days (1-31) */
 .days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-    height: auto;
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  height: auto;
 }
 
 .days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
 }
 
 /* Highlight the "current" day */
 .days li .active {
-    padding: 5px;
-    background: #00368E;
-    color: white !important
+  padding: 5px;
+  background: #00368E;
+  color: white !important
 }
 
-.horse{
+.horse {}
 
-}
-
-.activea{
+.activea {
   padding: 5px;
   background: #c11b4a;
   color: white !important
