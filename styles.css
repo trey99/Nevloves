@@ -200,8 +200,8 @@ footer {
 }
 
 .info {
-  width: 800px;
-  height: 900px;
+  width: 900px;
+  height: 800px;
   background-color: white;
   color: #c11b4a;
   font-family: 'Amatic SC';
@@ -224,8 +224,8 @@ h1 {
   display: inline-block;
   background-color: #FFF;
   border-radius: 10px;
-  height: 950px;
-  width: 950px;
+  height: 800px;
+  width: 900px;
   text-align: center;
 }
 
@@ -294,8 +294,8 @@ h1 {
 }
 
 .content {
-  width: 1000px;
-  height: 1000px;
+  width: 900px;
+  height: 800px;
   background-color: #ffffff;
   float: right;
   border-radius: 10px;
@@ -347,6 +347,9 @@ body {
 .month ul {
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 5%;
+  left:68%;
 }
 
 .month ul li {
