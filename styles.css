@@ -67,6 +67,7 @@ h1 {
 /* Slideshow container */
 .slideshow-container {
   width: 1000px;
+  height: 800px;
   position: absolute;
   margin: auto;
   top: 0%;
