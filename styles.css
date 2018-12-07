@@ -10,7 +10,7 @@ Body {
   border: 10px solid none;
   border-radius: 10px;
   height: auto;
-  width: 190px;
+  width: 205px;
   margin: 0px;
   background-color: #ffffff;
   position: fixed;
@@ -319,13 +319,15 @@ h1 {
   font-family: 'Amatic SC';
   color: #c11b4a;
 }
+.contact h1 {
+  color: #c11b4a;
+}
 
 .peanut {
   border: none;
   border-top: 2px dotted #c11b4a;
   width: 700px;
   float: right;
-  margin-top: 20px;
 }
 
 ul {
@@ -412,7 +414,7 @@ body {
 }
 
 .horse {
-  position: absolute;
+  position: fixed;
   left: 15%;
 }
 
