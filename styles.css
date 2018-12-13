@@ -5,7 +5,7 @@ Body {
   background-attachment: fixed;
 }
 body, html {
-  cursor:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.jmcss.org%2Fcms%2Flib%2FTN01917090%2FCentricity%2FDomain%2F883%2FMadison%2520Academic%2520crest.jpg&imgrefurl=https%3A%2F%2Fwww.jmcss.org%2Fsite%2FDefault.aspx%3FPageType%3D3%26DomainID%3D883%26PageID%3D1784%26ViewID%3D6446ee88-d30c-497e-9316-3f8874b3e108%26FlexDataID%3D4304&docid=GQmw5mVZArbPAM&tbnid=3xR4L9jxWMImCM%3A&vet=10ahUKEwjfzen5g53fAhUSVd8KHSPbBR8QMwg8KAAwAA..i&w=300&h=262&safe=active&bih=969&biw=1920&q=madison%20academy%20magnet%20highschool%20%20mustang%20&ved=0ahUKEwjfzen5g53fAhUSVd8KHSPbBR8QMwg8KAAwAA&iact=mrc&uact=8);
+  cursor: url(Images\horse.png);
 }
 /*the div containing the nav buttons and the nav heading*/
 .selection {
