@@ -4,7 +4,9 @@ Body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+body, html {
+  cursor:url(C:\Users\Garey.Littrell\Documents\GitHub\Raspbery-Pithon\Images\horse.png);
+}
 /*the div containing the nav buttons and the nav heading*/
 .selection {
   border: 10px solid none;
@@ -199,6 +201,14 @@ footer {
   right: 0%;
   top: 90%;
 }
+.castimg {
+  position: absolute;
+  top: 25%;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  right: 6%;
+}
 
 .info {
   width: 900px;
@@ -324,9 +334,6 @@ h1 {
 }
 
 .peanut {
-  border: none;
-  border-top: 2px dotted #c11b4a;
-  width: 700px;
   float: right;
 }
 
