@@ -5,7 +5,7 @@ Body {
   background-attachment: fixed;
 }
 body, html {
-  cursor:url(C:\Users\Garey.Littrell\Documents\GitHub\Raspbery-Pithon\Images\horse.png);
+  cursor:url(Images\horse.png);
 }
 /*the div containing the nav buttons and the nav heading*/
 .selection {
